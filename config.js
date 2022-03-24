@@ -12,8 +12,8 @@ const CONFIG = {
 
   // General
   name: 'Ben',
-  imageBackground: false,
-  openInNewTab: true,
+  imageBackground: true,
+  openInNewTab: false,
   twelveHourFormat: false,
 
   // Greetings
@@ -23,14 +23,14 @@ const CONFIG = {
   greetingNight: 'Go to Sleep!',
 
   // Weather
-  weatherKey: 'InsertYourAPIKeyHere123456',
+  weatherKey: '122001be2927bb1de8228322b25a2d47',
   weatherIcons: 'OneDark', // 'Nord', 'Dark', 'White'
   weatherUnit: 'C', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  defaultLatitude: '44.049399',
+  defaultLongitude: '-121.285114',
 
   // ┌─┐┌─┐┬─┐┌┬┐┌─┐
   // │  ├─┤├┬┘ ││└─┐
@@ -52,9 +52,9 @@ const CONFIG = {
     },
     {
       id: '3',
-      name: 'Todoist',
-      icon: 'trello',
-      link: 'https://calendar.google.com/calendar/r',
+      name: 'Music',
+      icon: 'headphones',
+      link: 'https://open.spotify.com/',
     },
     {
       id: '4',
